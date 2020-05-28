@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+    <head></head>
+    <body>
+        <form>
+            <h1>
+                Отправка заявки на конференцию
+            </h1>
+            
+            <h2>
+                Основные данные
+            </h2>
+            <h3>
+                *Фамилия, имя, отчество:
+            </h3>
+            <input type="text" size="63" required/>
+            <h3>
+                Дата рождения:
+            </h3>
+            <input type="date" placeholder="дд.мм.гггг"/>
+            <h3>
+                Пол:
+            </h3>
+            <input type="radio" name="gender"/>Мусжкой
+            <input type="radio" name="gender"/>Женский
+            <h2>
+                Данные для создания личного кабинета
+            </h2>
+            <h3>
+                *Адрес электронной почты:
+            </h3>
+            <input type="email" size="63" required/>
+            <h3>
+                *Пароль для создания личного кабинета:
+            </h3>
+            <input type="password" id="password1" size="63" required/>
+            <h3>
+                *Подтверждение пароля:
+            </h3>
+            <input type="password" id="password2" size="63" required/>
+            <h2>
+                Материалы для конференции
+            </h2>
+            <h3>
+                *Тема доклада:
+            </h3>
+            <input type="text" size="63" required/>
+            <h3>
+                *Тезисы доклада (не более 1000 символов):
+            </h3>
+            <textarea maxlength="1000" cols="53" rows="10" required></textarea>
+            <h3>
+                Файл презентации
+            </h3>
+            <input type="file"/>
+            <h2>
+                Дополнительные опции
+            </h2>
+            <input type="checkbox"/>Проживание в отеле<br>
+            <input type="checkbox"/>Завтрак<br>
+            <input type="checkbox"/>Обед<br>
+            <input type="checkbox"/>Ужин<br>
+            <hr>
+            <button>Отправить</button>
+            <hr>
+            <p><smoll>*Поля, отмеченные звездочкоя являются обязательными для заполнения</smoll></p>
+        </form>
+    </body>
+</html>
