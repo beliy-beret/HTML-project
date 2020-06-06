@@ -67,12 +67,13 @@ header {
     nav a {
         color: black;
         text-decoration: none;
+        padding: 0 15px;
     }
     nav li {
         display: inline;
-        padding: 0 15px;
+        
     }
-    nav li:first-child {
+    nav li:first-child a {
         padding-left: 0;
     }
 .black-bar {
